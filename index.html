@@ -73,11 +73,16 @@
   <header>
     <h1>🌸 Ellen Noda | Data Analysis Portfolio</h1>
   </header>
-
-  <div class="section gif-container">
-    <img src="https://github.com/ellenoda/data-analysis-portfolio/blob/89156f7f6e4fc9e55195bf9677e7f8b0787ee450/about%20me-ANIMATION.gif?raw=true" alt="About Me" />
-    <p><a href="https://www.figma.com/proto/F79Ln3iR1qJavrQSxtlDKt/Ellen?node-id=13-233&p=f&t=urgp79XY8OasFgw2-1&scaling=contain&content-scaling=fixed&page-id=6%3A2">🪪 Click to view full About Me prototype</a></p>
+<div class="section">
+  <h2>🪪 About Me</h2>
+  <div class="project">
+    <iframe 
+      src="https://www.figma.com/embed?embed_host=ellenoda.github.io&url=https://www.figma.com/proto/F79Ln3iR1qJavrQSxtlDKt/Ellen?node-id=13-233&p=f&t=urgp79XY8OasFgw2-1&scaling=contain&content-scaling=fixed&page-id=6%3A2" 
+      allowfullscreen
+      style="width:100%; height:500px; border:1px solid #ccc; border-radius: 12px;">
+    </iframe>
   </div>
+</div>
 
   <div class="section">
     <h2>🎬 Portfolio Overview</h2>
