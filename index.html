@@ -32,18 +32,17 @@
       color: #d75c8c;
       font-size: 1.8rem;
     }
-    .project {
-      margin: 1.5rem 0;
-    }
-    .project img {
+    .iframe-wrapper {
+      position: relative;
       width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      padding-bottom: 56.25%;
+      margin-bottom: 2rem;
     }
-    .project a {
-      text-decoration: none;
-      color: #d75c8c;
-      font-weight: bold;
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
     .gif-container {
       text-align: center;
@@ -78,32 +77,21 @@
 
   <div class="section">
     <h2>🎬 Portfolio Overview</h2>
-    <div class="project">
-      <a href="https://youtu.be/GZUXRk5Ps80">
-        <img src="https://img.youtube.com/vi/GZUXRk5Ps80/0.jpg" alt="Portfolio Cover" />
-      </a>
+    <div class="iframe-wrapper">
+      <iframe src="https://www.youtube.com/embed/GZUXRk5Ps80" title="Portfolio Overview" allowfullscreen></iframe>
     </div>
   </div>
 
   <div class="section">
     <h2>🧩 Featured Projects</h2>
-    <div class="project">
-      <a href="https://youtu.be/uP_FguBz6xs">
-        <img src="https://img.youtube.com/vi/uP_FguBz6xs/0.jpg" alt="SoulCode" />
-      </a>
-      <p><a href="https://lookerstudio.google.com/reporting/cc94f953-4b7c-4073-aa51-5b84f3d349ba">🔗 View dashboard</a></p>
+    <div class="iframe-wrapper">
+      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project" allowfullscreen></iframe>
     </div>
-    <div class="project">
-      <a href="https://youtu.be/CaE4RWqbOhs">
-        <img src="https://img.youtube.com/vi/CaE4RWqbOhs/0.jpg" alt="Customer Segmentation EN" />
-      </a>
-      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 View dashboard</a></p>
+    <div class="iframe-wrapper">
+      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN" allowfullscreen></iframe>
     </div>
-    <div class="project">
-      <a href="https://youtu.be/IYJ_iQxr9F0">
-        <img src="https://img.youtube.com/vi/IYJ_iQxr9F0/0.jpg" alt="Segmentação de Clientes PT" />
-      </a>
-      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 Ver dashboard</a></p>
+    <div class="iframe-wrapper">
+      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT" allowfullscreen></iframe>
     </div>
   </div>
 
