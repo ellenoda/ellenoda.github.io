@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ellen Noda | Data Analysis Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -22,6 +23,10 @@
       margin: 0;
       font-size: 2.5rem;
       color: #d75c8c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
     }
     .section {
       padding: 2rem;
@@ -56,7 +61,9 @@
       padding: 2rem;
     }
     .contact a {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       margin: 0.5rem;
       color: #d75c8c;
       text-decoration: none;
@@ -67,11 +74,28 @@
       margin-top: 1rem;
       color: #444;
     }
+    .background-anim {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100vw;
+      height: 100vh;
+      opacity: 0.2;
+    }
+    .project p {
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
+  <lottie-player class="background-anim" src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/background-vertical%20-animation.json?raw=true" background="transparent" speed="1" loop autoplay></lottie-player>
+
   <header>
-    <h1>🌸 Ellen Noda | Data Analysis Portfolio</h1>
+    <h1>
+      <lottie-player src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/flower-animation.json?raw=true" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player>
+      Ellen Noda | Data Analysis Portfolio
+    </h1>
   </header>
 
   <div class="section">
@@ -166,11 +190,16 @@
     </div>
   </div>
 
-  <div class="section">
+   <div class="section">
     <h2>📬 Contact</h2>
     <div class="contact">
-      <a href="mailto:ellenoda@gmail.com">📧 ellenoda@gmail.com</a><br>
-      <a href="https://www.linkedin.com/in/ellen-noda">💼 linkedin.com/in/ellen-noda</a>
+      <a href="mailto:ellenoda@gmail.com">
+        📧 ellenoda@gmail.com
+      </a><br>
+      <a href="https://www.linkedin.com/in/ellen-noda">
+        <lottie-player src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/linkedin-animation.json?raw=true" background="transparent" speed="1" style="width: 24px; height: 24px;" loop autoplay></lottie-player>
+        linkedin.com/in/ellen-noda
+      </a>
     </div>
   </div>
 </body>
