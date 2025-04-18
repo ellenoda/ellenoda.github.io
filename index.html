@@ -88,7 +88,34 @@
     ✅ ETL processes for data transformation and automation<br>
     ✅ Business case studies demonstrating data-driven decision-making</h2>
   </div>
+  <div class="section">
+    <h2>🧩 Featured Projects</h2>
 
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://lookerstudio.google.com/reporting/cc94f953-4b7c-4073-aa51-5b84f3d349ba">🔗 View dashboard</a></p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 View dashboard</a></p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 Ver dashboard</a></p>
+    </div>
+  </div>
+  
   <div class="section">
     <h2>📊 Dashboards</h2>
 
