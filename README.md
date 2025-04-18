@@ -89,35 +89,7 @@
     ✅ Business case studies demonstrating data-driven decision-making</h2>
   </div>
   <div class="section">
-    <h2>🧩 Featured Projects</h2>
-
-    <div class="project">
-      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
-      <p><a href="https://lookerstudio.google.com/reporting/cc94f953-4b7c-4073-aa51-5b84f3d349ba">🔗 View dashboard</a></p>
-    </div>
-
-    <div class="project">
-      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
-      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 View dashboard</a></p>
-    </div>
-
-    <div class="project">
-      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
-      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 Ver dashboard</a></p>
-    </div>
-  </div>
-  
-  <div class="section">
-    <h2>📊 Dashboards</h2>
+    <h2>🧩Projects</h2>
 
     <div class="project">
       <img class="dashboard-img" src="https://github.com/ellenoda/data-analysis-portfolio/blob/c7903a7285a7cbfb255ce0643de80ba85454e099/finance-ANIMATION.gif?raw=true" alt="Finance Dashboard" />
@@ -145,6 +117,35 @@
       <p><strong>🧠 What I did:</strong> I visualized the complete journey of SoulCode applicants, from application to approval.<br>
          <strong>📈 Outcome:</strong> Full overview with detailed stages to understand process bottlenecks and improve candidate experience.<br>
          <a href="https://lookerstudio.google.com/reporting/cc94f953-4b7c-4073-aa51-5b84f3d349ba">📊 View dashboard</a></p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="project">\      <img class="dashboard-img" src="https://github.com/ellenoda/data-analysis-portfolio/blob/e106ab24c3bfd3a8d7c17747773bee181659cc53/client-ANIMATION.gif?raw=true" alt="Client Segmentation" />
+      <p><strong>🧠 What I did:</strong> I applied RFM (Recency, Frequency, Monetary) analysis to segment customers based on purchase behavior using Google Sheets and Looker Studio.<br>
+         <strong>📈 Outcome:</strong> Identified key groups such as Loyal, Potential, and At Risk clients, enabling personalized strategies and boosting retention.<br>
+         <a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">📊 View dashboard</a></p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 View dashboard</a></p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">🔗 Ver dashboard</a></p>
     </div>
   </div>
 
