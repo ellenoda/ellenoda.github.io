@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ellen Noda | Data Analysis Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -15,7 +14,7 @@
       padding: 0;
     }
     header {
-      background-color: #ffdbe8;
+      background-color: #f9dee4;
       padding: 2rem;
       text-align: center;
     }
@@ -28,6 +27,10 @@
       align-items: center;
       gap: 1rem;
     }
+    .puzzle-large {
+      width: 220px;
+      height: auto;
+    }
     .section {
       padding: 2rem;
       max-width: 900px;
@@ -36,6 +39,9 @@
     .section h2 {
       color: #d75c8c;
       font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
     .project h3 {
       color: #d75c8c;
@@ -56,14 +62,12 @@
       margin-bottom: 0.5rem;
     }
     .contact {
-      background: #fbe3ee;
+      background: #d8b6c3;
       text-align: center;
       padding: 2rem;
     }
     .contact a {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
+      display: inline-block;
       margin: 0.5rem;
       color: #d75c8c;
       text-decoration: none;
@@ -86,18 +90,38 @@
     .project p {
       font-size: 1rem;
     }
+    .icon {
+      height: 64px;
+    }
+    .coming-soon {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .coming-soon img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .coming-soon h3 {
+      font-size: 1.5rem;
+      color: #d75c8c;
+      margin-bottom: 0.5rem;
+    }
+    .coming-soon p {
+      font-size: 1rem;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <lottie-player class="background-anim" src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/background-vertical%20-animation.json?raw=true" background="transparent" speed="1" loop autoplay></lottie-player>
+  <img class="background-anim" src="https://github.com/ellenoda/data-analysis-portfolio/blob/65853f933598785bf4dae2dc4c5601034ed86538/background.gif?raw=true" alt="Background animation" />
 
   <header>
     <h1>
-      <lottie-player src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/flower-animation.json?raw=true" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player>
+      <img class="puzzle-large" src="https://github.com/ellenoda/data-analysis-portfolio/blob/d6940618be42a7f0ad5da9d142f78e65a4d11c38/puzzle-unscreen.gif?raw=true" alt="Puzzle animation" />
       Ellen Noda | Data Analysis Portfolio
     </h1>
   </header>
-
   <div class="section">
     <h2>🪪 About Me</h2>
     <div class="project">
@@ -158,16 +182,13 @@
     </div>
 
     <div class="project">
-      <h3>📽️ SoulCode Video Presentation</h3>
-      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+      <h3>📽️ SoulCode Video Presentation in Portuguese</h3>
+      <iframe src="https://www.youtube.com/embed/uP_FguBz6xs" title="SoulCode Project" allowfullscreen></iframe>
     </div>
 
     <div class="project">
       <h3>🧮 Customer Segmentation</h3>
-      <img class="dashboard-img" src="https://github.com/ellenoda/data-analysis-portfolio/blob/e106ab24c3bfd3a8d7c17747773bee181659cc53/client-ANIMATION.gif" alt="Client Segmentation" />
+      <img class="dashboard-img" src="https://github.com/ellenoda/data-analysis-portfolio/blob/e106ab24c3bfd3a8d7c17747773bee181659cc53/client-ANIMATION.gif?raw=true" alt="Client Segmentation" />
       <p><strong>🧠 What I did:</strong> I applied RFM (Recency, Frequency, Monetary) analysis to segment customers based on purchase behavior using Google Sheets and Looker Studio.<br>
          <strong>📈 Outcome:</strong> Identified key groups such as Loyal, Potential, and At Risk clients, enabling personalized strategies and boosting retention.<br>
          <a href="https://lookerstudio.google.com/reporting/6a5294c0-8e8c-4d63-9d5e-de8e7b2b137b">📊 View dashboard</a></p>
@@ -175,18 +196,12 @@
 
     <div class="project">
       <h3>📺 Customer Segmentation Video (English)</h3>
-      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+      <iframe src="https://www.youtube.com/embed/CaE4RWqbOhs" title="Customer Segmentation EN" allowfullscreen></iframe>
     </div>
 
     <div class="project">
-      <h3>📺 Segmentação de Clientes (Português)</h3>
-      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+      <h3>📺 Segmentação de Clientes (Portuguese)</h3>
+      <iframe src="https://www.youtube.com/embed/IYJ_iQxr9F0" title="Segmentação de Clientes PT" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -211,7 +226,7 @@
     </div>
 
     <div class="project">
-      <h3>📺 Spotify Analysis Video (Português)</h3>
+      <h3>📺 Spotify Analysis Video (Portuguese)</h3>
       <iframe src="https://www.youtube.com/embed/lp5Ksffx6ac" title="Spotify Analysis PT"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
@@ -219,17 +234,20 @@
     </div>
   </div>
 
-   <div class="section">
-    <h2>📬 Contact</h2>
+  <div class="section">
+    <h2><img class="icon" src="https://github.com/ellenoda/data-analysis-portfolio/blob/1c80d8e66b791ea38e123ece5209e5a685c94de8/email-unscreen.gif?raw=true" alt="Email Icon" /> Contact</h2>
     <div class="contact">
-      <a href="mailto:ellenoda@gmail.com">
-        📧 ellenoda@gmail.com
-      </a><br>
-      <a href="https://www.linkedin.com/in/ellen-noda">
-        <lottie-player src="https://github.com/ellenoda/data-analysis-portfolio/blob/963e07e056231f40cb00fa3a364ba6ab56bcf21a/linkedin-animation.json?raw=true" background="transparent" speed="1" style="width: 24px; height: 24px;" loop autoplay></lottie-player>
-        linkedin.com/in/ellen-noda
-      </a>
+      <p><a href="mailto:ellenoda@gmail.com">ellenoda@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/ellen-noda">linkedin.com/in/ellen-noda</a></p>
     </div>
+  </div>
+
+  <div class="section coming-soon">
+    <h3>Coming Soon: More Projects</h3>
+    <p>New data adventures are on the way. Stay tuned for fresh insights and visual stories!</p>
   </div>
 </body>
 </html>
+
+
+
